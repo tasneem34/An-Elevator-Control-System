@@ -1,0 +1,117 @@
+<div class="landing">
+  <div class="intro-text">
+    <p>Welecome to DashBoard of System</p>
+  </div>
+  <div class="layer"></div>
+</div>
+  <!-- Start Features -->
+  <div class="features">
+      <div class="container">
+          <div class="feat" name="car1">
+            <h3> Car1
+            </h3>
+            <div  *ngFor="let car of cars ">
+              <!-- 3uqScWAk53I2SJA6cumf
+              83XpibjlgY03lRKCzQqK -->
+            <div *ngIf="car.id=='83XpibjlgY03lRKCzQqK'" >
+              <p> Car position Floor : <span class="ans">{{ car.position }} </span> <em *ngIf="car.up_down==2">▲</em> <em *ngIf="car.up_down==1">▼</em> <em *ngIf="car.up_down==0"> </em></p>
+              <p> Car state : {{ car.state }} </p>
+              <p> Car Door state  : {{ car.doorState }} </p>
+            </div>
+            </div>
+          </div>
+          <div class="feat" id = "car2">
+            <h3>
+              Car2
+            </h3>
+            <div  *ngFor="let car of cars ">
+              <!-- 3uqScWAk53I2SJA6cumf
+              RZlrRzC4JwKH1GjsxnAJ -->
+              <div *ngIf="car.id=='RZlrRzC4JwKH1GjsxnAJ'" >
+                <p> Car position Floor : <span class="ans">{{ car.position }} </span> <em *ngIf="car.up_down==2">▲</em> <em *ngIf="car.up_down==1">▼</em> <em *ngIf="car.up_down==0"> </em></p>
+                <p> Car state : {{ car.state }} </p>
+                <p> Car Door state  : {{ car.doorState }} </p>
+              </div>
+              </div>
+          </div>
+
+          <div class="feat" id = "car1">
+            <h3>
+              Car3
+            </h3>
+            <div  *ngFor="let car of cars ">
+              <!-- R0S08jG8AUjkNucjknTw
+              lHvAs94TSgczuImwnWgC -->
+              <div *ngIf="car.id=='lHvAs94TSgczuImwnWgC'" >
+                <p>  Car position Floor : <span class="ans">{{ car.position }} </span><em *ngIf="car.up_down==2">▲</em> <em *ngIf="car.up_down==1">▼</em> <em *ngIf="car.up_down==0"> </em></p>
+                <p> Car state : {{ car.state }} </p>
+                <p> Car Door state  : {{ car.doorState }} </p>
+              </div>
+              </div>
+
+          </div>
+        </div>
+    </div>   
+   
+   
+   
+   
+   
+   <!-- <h1>DashBoard</h1>
+     <br>
+<div class="container">
+
+    <div name="car1">
+
+      <h3>
+        Car1 
+      </h3>
+      
+      <div  *ngFor="let car of cars ">
+      <div *ngIf="car.id=='3uqScWAk53I2SJA6cumf'" >
+        <h5> Car position Floor : {{ car.position }} </h5>
+        <h5> Car state : {{ car.state }} </h5>
+        <h5> Car Door state  : {{ car.doorState }} </h5>
+
+      </div>  
+      </div>
+
+    </div>
+
+
+    <br>
+
+    <div id = "car2">
+      <h3>
+        Car2
+      </h3>
+      <div  *ngFor="let car of cars ">
+        <div *ngIf="car.id=='CsWPOJTKuqnHi364de64'" >  
+          <h5> Car position Floor : {{ car.position }} </h5>
+          <h5> Car state : {{ car.state }} </h5>
+          <h5> Car Door state  : {{ car.doorState }} </h5>
+        </div>  
+        </div>
+  
+    </div>
+
+
+    <br>
+    
+    <div id = "car1">
+      <h3>
+        Car3
+      </h3>
+
+      <div  *ngFor="let car of cars ">
+        <div *ngIf="car.id=='R0S08jG8AUjkNucjknTw'" >
+        
+          <h5>  Car position Floor : {{ car.position }} </h5>
+          <h5> Car state : {{ car.state }} </h5>
+          <h5> Car Door state  : {{ car.doorState }} </h5>
+        </div>  
+        </div>
+  
+    </div>
+
+</div> -->

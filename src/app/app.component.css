@@ -1,0 +1,71 @@
+.landing {
+    background-image: url(../images/pexels-michael-morse-1281346.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+  }
+  .landing .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+  }
+  .landing .intro-text p{
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffaf24;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+  }
+  /* .landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+  } */
+  .landing .layer{
+    background-color: rgb(0 0 0 / 42%);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .features {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+  }
+  .features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 50px;
+  }
+  .features .container::before{
+    content: none;
+  }
+  .features .feat {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffeac6;
+    border-radius: 0 0 100px 0;
+  }
+  .features .feat:hover{
+    box-shadow: 1px 1px 18px 9px #3e372c;
+    transition: 0.5s;
+  }
+  .features .feat h3 {
+    font-weight: 900;
+    margin: 30px 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .features .feat p {
+    line-height: 1.8;
+    color: #af0300;
+    font-size: 15px;
+    font-weight: 600;
+  }
